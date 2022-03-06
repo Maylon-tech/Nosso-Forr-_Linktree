@@ -18,7 +18,6 @@ body {
     margin: 0px auto;
     max-width: 1270px;
     min-width: 450px;   
-    min-height: 500px;
     height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/Nosso-Forro-Vermelha_team.jpg);
     background-repeat: no-repeat;
@@ -34,23 +33,24 @@ body {
 .header {
     width: 100%;
     display: flex;
+    height: 40vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 15px auto;
+    margin: 0px auto;
 }
 
 .header img {
-    width: 150px;
-    height: 150px;  
-    border: 1px solid white;  
+    width: 130px;
+    height: 130px;  
+    border: 2px solid white;  
     border-radius: 100px;
-  
     padding: 6px;
 }
 .header h1 {
-
-    font-size: 25px;
+    color: rgb(187, 160, 8);
+    font-size: 30px;
+    letter-spacing: 1.5px;
 }
 .header h2 {
     font-weight: 400;
@@ -66,7 +66,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 10px auto;
-    height: 100vh;
+    height: 50vh;
 }
 
 
@@ -74,8 +74,7 @@ body {
 
 
 .social-icon {
-    width: 60%;
-    margin-bottom: 15px;
+    width: 40%;
 }
 .social-icon ul {
     list-style: none;
@@ -97,8 +96,7 @@ body {
 
 
 .work-links {
-    width: 750px;
-    height: 500px;
+    width: 60%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -110,11 +108,11 @@ body {
     flex-wrap: wrap;
 }
 .work-links li {
-    border: 2px solid rgb(168, 165, 121);
+    border: 2px solid rgba(190, 88, 88, 0.877);
     border-radius: 10px;
-    padding: 18px;
-    margin: 40px auto 40px auto;
-    width: 70%;
+    padding: 13px;
+  
+    width: 55%;
     text-align: center;
 }
 .work-links a {
@@ -131,9 +129,11 @@ body {
 
 .footer {
     width: 100%;
+    height: 5vh;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-top: 20px auto;
 }
 .footer p {
     text-align: center;
@@ -151,7 +151,7 @@ body {
    
     .work-links li {
        width: 100%;
-       margin: 40px 0px;
+       margin: 20px 0px;
     }
     .work-links a {
         font-weight: bold;
@@ -161,7 +161,7 @@ body {
 
 @media(max-width: 900px) and (min-width: 700px){
      .work-links {
-       
+       width: 500px;
     }
    
     .work-links li {
